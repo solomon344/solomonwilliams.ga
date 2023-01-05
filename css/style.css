@@ -1,0 +1,375 @@
+
+.list2 .all {
+    text-decoration:none;
+    color:goldenrod;
+}
+
+.list2 .all:hover {
+    text-decoration: none;
+}
+
+.list_1 li {
+    margin-left: 10px;
+}
+
+.list2 ul li {
+    margin-top: 10px;
+}
+
+.dec {
+    background-color: goldenrod;
+}
+
+.dec a:hover {
+    border: none;
+}
+
+.dec li:hover {
+    border: none;
+}
+
+#Home {
+    background-color: goldenrod;
+    
+}
+
+.file3 {
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 15px black;
+    border-radius: 10px;
+}
+
+.f {
+    background-color: transparent;
+    height: 300px;
+    width: 98%;
+}
+
+.back1 {
+    background-color: rgb(241, 190, 36) ; 
+    background: url("../images/houecar.jpg") no-repeat center center fixed;   
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+.hh {
+    font-family: sevillana;
+    color: white;
+    
+}
+
+.intro {
+    font-family: Prosto One;
+    color: white;
+    width: fit-content;
+    font-size: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-self: space-between;
+}
+
+.minor {
+    background-color: black;
+    height: inherit;
+    opacity: .7;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.obj {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.itms {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    justify-content: space-between;
+}
+
+#github,#linkedin,#facebook,#mail,#instagram,#twitter {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-left: 30px;
+}
+
+.start {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    border: 1px solid goldenrod;
+    padding: 10px 50px 10px 50px;
+    width: 150px;
+    border-radius: 15px;
+    transition: .30s;
+}
+.start:hover {
+    background-color: goldenrod;
+}
+
+.file4 {
+    height: 40px;
+    border-radius: 2rem;
+    width: 40px;
+}
+
+.home {
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
+
+#all {
+    width: 50%;
+}
+
+.intro a{
+    color: white;
+}
+
+#a1 {
+    color:white;
+}
+
+#a1:hover {
+    color: goldenrod;
+}
+.logo {
+    height: 60px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.logo2 {
+    height: 60px;
+    width: 90px;
+    border-radius: 10px;
+    
+}
+
+.logo2:hover {
+    border-bottom: 1px solid goldenrod;
+}
+
+.logo:hover {
+    border-bottom: 1px solid goldenrod;
+}
+
+#time {
+    font-size: 56px;
+    margin-left: 100px;
+    width: 30%;
+    margin-top: 70px;
+}
+
+
+.foot {
+    overflow: hidden;
+    
+}
+
+.know1 {
+    height: 1150px;
+    font-size: 24px;
+}
+
+
+.menu_item {
+    display: none;
+}
+
+#close:hover {
+    cursor:pointer;
+}
+
+#follow {
+    width: 100px;
+   
+}
+
+
+@media screen and (max-width:800px) {
+
+    .itms {
+        
+        left: 30%;
+       
+    }
+    #time {
+        margin-left: 20px;
+    }
+
+    .hh {
+        font-size: 20px;
+    }
+
+    .logo {
+        border-bottom: 2px solid goldenrod;
+    }
+    
+    .header {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .file {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    .itms {
+        display: none;
+    }
+
+    .hh {
+        font-size: 20px;
+    }
+
+    
+    
+   
+}
+
+@media screen and (max-width:500px) {
+    .foot {
+        display: none;
+    }
+    
+    .certcont {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:660px)  {
+    .data1 {
+        flex-direction: column;
+    }
+
+    
+}
+
+@media  screen and (max-width:900px) {
+    .know {
+        flex-direction: column;
+        align-items: center;
+       height: fit-content;
+    }
+
+    .know1 {
+        width: 100%;
+        border-bottom-left-radius: none;
+        border-bottom-right-radius: none;
+        font-size: 24px;
+        height:fit-content;
+        border: 1px solid goldenrod;
+        }
+    .know1 p {
+        font-size: 30px;
+        line-height: 30px;
+    }    
+}
+    
+
+
+@media screen and (max-width:1123px) {
+    .filecont1 {
+        flex-direction: column;
+        align-self: center;
+    }
+    .file {
+        width: 100%;
+        margin-bottom: 15px;
+        height: fit-content;
+    }
+
+    .file p {
+        font-size: 19px;
+    }
+
+    #all {
+        font-size: 30px;
+        line-height: 34px;
+        width: 100%;
+        
+    }
+
+    .intro {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        height: fit-content;
+        padding-bottom: 70px;
+        margin-bottom: 100px;
+    }
+
+
+    #time {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:1235px) {
+    .first1 {
+        display: block;
+        margin-right: 20px;
+    
+    }
+
+    .first {
+        display:block;
+    }
+    
+}
+
+@media screen and (max-width:1250px) {
+    .search_bar {
+        display:none;
+    }
+
+    .intro {
+        margin-bottom: 100px;
+        font-size: 26px;
+    }
+    
+}
+
+@media  screen and (max-width:1400px)  {
+    .home2 {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width:1150px) {
+  
+    
+}
+
+@media screen and (min-width:800px) {
+    .logo2 {
+        display: none;
+    }
+}

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/practice 1.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <title>Home</title>
+  </head>
+  <body>
+    <div  class="back1">
+      <a href="index.html"><img class="logo2" src="../images/solomon williams.jpg" alt="" style="opacity: .7;margin-left: 10px;margin-top: 10px;"></a>
+      <div class="header">
+        <a href="index.html"><img class="logo" src="../images/solomon williams.jpg" alt=""></a>
+        <div class="list_holder">
+          <ul class = "list_1">
+            <li class="dec">
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="plots.html">Charts</a>
+            </li>
+            <li>
+              <a href="skills.html">Skills</a>
+            </li>
+            <li>
+              <a href="#contact">Contacts</a>
+            </li>
+            <li>
+              <a href="courses.html">Courses</a>
+            </li>
+            <li>
+              <a href="datasets.html">Datasets</a>
+            </li>
+            <li>
+              <a href="Certificates.html">Certificates</a>
+            </li>
+          </ul>
+        </div>
+        <div class="search_bar">
+          <div class = "bar_cont">
+            <input type="text" id="search" class = "input_1" placeholder="Search...">
+            <img src="../images/search.gif" alt="search bar" class = "img_1" onclick="search()">
+          </div>
+        </div>
+      </div>
+      <div class="section1">  
+        <div class="data1">
+          <div class="dataset">
+            <a href="datasets.html">
+              <h3 id="datasets">
+                Data Sets
+              </h3>
+              <img src="../images/csv.png" alt="field" class="file2">
+              <p>
+                Here are some Datasets you can download for practicing.
+              </p>
+              <p>
+                These Datasets were the ones I was using throughout my Course.
+              </p>
+              <p>
+                There are two different types of datasets here. 
+              </p>
+              <p>
+                Happy coding!
+              </p>
+            </a>
+          </div>
+          <div class="dataset">
+            <a href="courses.html">
+              <h3>
+                Courses
+              </h3>
+              <img src="../images/courses_5164r9lzp25v_32.png" alt="field" class="file2">
+              <p>
+                Here are some tutorials that could be helpful.
+              </p>
+              <p>
+                These tutorials were the ones I took.
+              </p>
+              <p>
+                There are some extra tutorials that can clarify some doupts. 
+              </p>
+              <p>
+                Happy Learning!
+              </p>
+            </a>
+          </div>
+          <div class="dataset">
+            <a href="plots.html">
+              <h3>
+                Charts
+              </h3>
+              <img src="../images/euro_fsnmgodf2bj2_32.png" alt="chart" class="file2">
+              <p>
+                Here are some data that I visualized.
+              </p>
+              <p>
+                Some of the charts are from the free code camp's Data analysis with python projects.
+              </p>
+              <p>
+                You can try and recreate some of those charts with the datasets provided. 
+              </p>
+              <p>
+                Happy Visualization!
+              </p>
+            </a>
+          </div>
+        </div> 
+        <div class="data1">
+          <div class="dataset">
+            <a href="certificates.html">
+              <h3>
+                Certificates
+              </h3>
+              <img src="../certificates/certificate.png" alt="chart" class="file2">
+              <p>
+                Here are some of the certificates I gained since I get into the IT field.
+              </p>
+              <p>
+                I have inserted only one certificate for now.
+              </p>
+              <p>
+                I will display the others in my further updates . 
+              </p>
+              <p>
+                Happy Exploring!
+              </p>
+            </a>
+          </div>
+          <div class="dataset">
+            <a href="../datasets/python and pandas excercises/" download="Exercises">
+              <h3>
+                Excercises
+              </h3>
+              <img src="../images/task_wklhyizr5zm5_32.png" alt="chart" class="file2">
+              <p>
+                Here are some python and pandas excercises that could be helpful.
+              </p>
+              <p>
+                I used these pdf files to practice python and pandas
+              </p>
+              <p>
+                There are thones of exercises in each pdf file. 
+              </p>
+              <p>
+                Happy Practicing!
+              </p>
+            </a>
+          </div>
+          <div class="dataset">
+            <a href="skills.html">
+              <h3>
+                Data Analytics Tools and Uses
+              </h3>
+              <img src="../images/data analytics.png" alt="chart" class="file2">
+              <p>
+                Here are some of the data analytics tools and their uses .
+              </p>
+              <p>
+                Most of them are python libraries/Packages.
+              </p>
+              <p>
+                Note:  they are very important if you schoose python as your primary data analytics tool 
+              </p>
+              <p>
+                Happy Exploring!
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <img onclick="display_menu()" src="../images/white_menu.png" alt="">
+      </div>
+      <div class="menu_item" id="menu_item">
+        <ul class = "menu_list">
+          <li class="dec2">
+            <a href="" style="color: goldenrod;">Home</a>
+          </li>
+          <li>
+            <a href="plots.html">Charts</a>
+          </li>
+          <li>
+            <a href="skills.html">Skills</a>
+          </li>
+          <li>
+            <a href="#contact">Contacts</a>
+          </li>
+          <li>
+            <a href="courses.html">Courses</a>
+          </li>
+          <li>
+            <a href="datasets.html">Datasets</a>
+          </li>
+          <li style="border-bottom: 1px solid goldenrod;">
+            <a href="Certificates.html">Certificates</a>
+          </li>
+          <li id="close" style="border: none;">
+            <img  onclick="hide_menu()" src="../images/close.png" alt="close button">
+          </li>
+        </ul>
+      </div> 
+    </div>
+    <div class="foot">
+      <div class="cont">
+        <div class="side_1">
+          <div class="upside">
+            <p>
+              Email me at:  <span class = "email"> <a href="mailto:willamssolomon672@gmail.com" style="text-decoration: none;" id="a1">willamssolomon672@gmail.com </a></span>
+            </p>
+            <p>
+              Contact me on: <span class = "number"><a style="text-decoration: none;" class="number" id="a1" href="tel:+2207036433">+2207036433</a></a></span>
+            </p>
+          </div>
+          <div class="downside">
+            <div class="downside1">
+              <p id="follow">
+                Follow me at:  
+              </p>
+              <div class="downimg" id = "contact">
+                <a href="https://www.facebook.com/solomon.williams.9406417/"><img src="../images/facebook_1.png" alt="facebook.com" class = "facebook"></a>
+                <a href="https://github.com/solomon344"><img style="background-color: white;border-radius: 30px;" src="../images/githun_t.png" alt="github.com" class = github></a>
+                <a href="mailto:willamssolomon672@gmail.com"><img src="../images/mail.png" alt="Mail" class="mail"></a>
+                <a href="https://www.linkedin.com/in/solomon-williams-b93037207/"><img src="../images/linkedin.png" alt="LinkedIn.com" class="linkedin"></a>
+                <a href="https://www.instagram.com/solomonwilliams63/"><img src="../images/instagram.png" alt="Instagram.com" class="instagram"></a>
+              </div>
+            </div>
+            <p class="author">
+              Author: <span class="auth">Solomon Williams</span>
+            </p>
+            <p class="sub">
+              Copyright © 2022 - 2023
+            </p>
+          </div>
+        </div>
+          <div class="side_2">
+          <div class="upside_1">
+            <p class = "skills">
+              <a href="Skills.html"> Skills: </a>
+            </p>
+            <div class="list2">
+              <ul>
+                <li>
+                  <a href="skills.html#python">PYTHON</a>
+                </li>
+                <li>
+                  <a href="skills.html#html">HTML</a>
+                </li>
+                <li>
+                  <a href="skills.html#css">CSS</a>
+                </li>
+                <li>
+                  <a href="skills.html#pandas"> Data Analysis</a>
+                </li>
+                <li>
+                  <a href="skills.html#excel">Data Entry</a>
+                </li>
+                <li>
+                  <a href="skills.html#matplotlib">Data Visualization</a>
+                </li>
+                <li>
+                  <a href="skills.html#beautify">Web Scrapping</a>
+                </li>
+                <li>
+                  <a href="skills.html#numpy">Statistics</a>
+                </li>
+                <li>
+                  <a href="skills.html#problem">Problem Solving</a>
+                </li>
+              </ul>
+            </div>
+            <div class="list2">
+              <ul>
+                <li>
+                  <a href="plots.html">Charts</a>
+                </li>
+                <li>
+                  <a href="Skills.html">Skills</a>
+                </li>
+                <li>
+                  <a href="courses.html">Courses</a>
+                </li>
+                <li>
+                  <a href="Datasets.html">Datasets</a>
+                </li>
+                <li>
+                  <a href="certificates.html">Certificate</a>
+                </li>
+              </ul>
+            </div>
+            <a href="home.html" class="home2"><img src="../images/home.png" alt="Home" id="Home" class="home"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../javascript/s.js"></script>
+</html>

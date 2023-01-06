@@ -172,6 +172,8 @@ body {
     transition:1s;
     font-weight: bold;
     margin-top: 40px;
+    color:white;
+    text-decoration:none;
 }
 .email:hover, .number:hover {
     cursor: pointer;
